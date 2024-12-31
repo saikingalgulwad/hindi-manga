@@ -14,7 +14,9 @@ export default function RootLayout({ children }) {
     
     <ClerkProvider>
     <html lang="en">
-  
+  <head>
+    <link rel='icon' type='image/png' href='./icon.png'/>
+    </head>
       <body
        className={outfit.className}
       >
