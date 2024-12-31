@@ -14,10 +14,7 @@ export default function RootLayout({ children }) {
     
     <ClerkProvider>
     <html lang="en">
-    <Head>
-        
-        <link rel="icon" href="@/public/logo.webp" />
-      </Head>
+  
       <body
        className={outfit.className}
       >
